@@ -1,14 +1,11 @@
-import React from 'react';
-import BackwardCounter from './components/BackwardCounter';
-import ForwardCounter from './components/ForwardCounter';
+import BasicForm from "./components/BasicForm";
 
 function App() {
-  return (
-    <React.Fragment>
-      <ForwardCounter />
-      <BackwardCounter />
-    </React.Fragment>
-  );
+    return (
+        <div className="app">
+            <BasicForm/>
+        </div>
+    );
 }
 
 export default App;
