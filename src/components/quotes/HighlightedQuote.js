@@ -8,5 +8,4 @@ const HighlightedQuote = (props) => {
     </figure>
   );
 };
-
 export default HighlightedQuote;
